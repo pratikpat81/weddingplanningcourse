@@ -1,5 +1,3 @@
-
-
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -7,6 +5,8 @@ body{
 p{
     font-family: 'Open Sans', sans-serif;
 }
+
+
 
 
 .enroll-button{
@@ -29,12 +29,9 @@ p{
     padding: 15px;
     border-radius: 10px;
     align-items: center;
-    
 }
 
-
 .hero-section{
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: pink;
@@ -108,7 +105,6 @@ p{
     border-radius: 16px;
 }
 
-
 .topics-section{
     display: flex;
     flex-direction: column;
@@ -136,7 +132,6 @@ p{
     margin-bottom: -50px;
 
 }
-
 
 .benefits-section{
     display:flex;
