@@ -68,12 +68,6 @@ p{
 
 }
 
-.target-students{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(255, 255, 255);
-    justify-content: space-between;
-}
 
 .signup-form{
     display: flex;
@@ -81,14 +75,21 @@ p{
 }
 
 .box{
-    background-color: rgb(188, 195, 201);
-    color: rgb(255, 255, 255);
-    margin:8px;
-    border-radius: 16px;
+    width: 46%;
+    height: 400px;
+    margin-right: 10px;
+    background:linear-gradient( 360deg,  rgb(200, 247, 247) 23.8%, rgba(234,211,240,1) 92% );
+    border-radius: 5px;
+    counter-increment: carousel-cell;
     display: flex;
     flex-direction: column;
+    font-size: x-large;
+    justify-content: center;
     align-items: center;
+    padding:24px;
 }
+
+
 
 .wpic-logo{
     width: 100px;
@@ -112,7 +113,7 @@ p{
     color: rgb(0, 0, 0);
     margin:10px;
     list-style: none;
-    overflow-y: auto;
+ 
 
 }
 
