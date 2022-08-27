@@ -262,8 +262,8 @@ p{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    height:300px;
-    width:300px;
+    height:250px;
+    width:250px;
     margin:30px;
     border-radius: 90%;
     text-align: center;
@@ -325,6 +325,63 @@ p{
     .header .container {
         flex-direction: column;
         padding-top:20px;
-        text-align:center
+        text-align:center;
+        margin:48px;
 }
 } 
+
+
+.faqcontainer{ 
+    max-width:900px;
+    margin:48px auto;
+    padding-bottom: 20px;
+
+}
+
+
+/* Start Here */ 
+.text { 
+text-align:center;
+margin-bottom:2rem;
+}
+
+.tabs { 
+    display:flex;
+    border:1px solid gray;
+    overflow:hidden;
+    border-radius: 16px;
+
+}
+
+.tabs-links{
+    width:25%;
+}
+
+button.tab-link { 
+    padding: 20px;
+    width:100%;
+    font-size:20px;
+    border:none;
+    outline:none;
+    border-bottom:2px solid grey
+}
+
+.active { 
+    background-color:pink;
+
+}
+
+
+.tab-contents { 
+    padding:20px;
+}
+
+.tab-content {
+    display:none;
+}
+
+.about { 
+    display:block;
+}
+
+
